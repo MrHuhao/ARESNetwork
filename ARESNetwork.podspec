@@ -4,9 +4,6 @@ Pod::Spec.new do |s|
   s.version      = "0.0.1"
   s.summary      = "ARESNetwork"
 
-  s.description  = <<-DESC
-                   A longer description of ARESNetwork in Markdown format.
-
   s.homepage     = "https://github.com/MrHuhao/ARESNetwork"
 
   s.license      = "MIT ()"
