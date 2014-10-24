@@ -118,9 +118,9 @@ s.subspec 'Serialization' do |ss|
   end
 
   s.subspec 'NSURLSession' do |ss|
-    ss.dependency 'ARESNetworking/Serialization'
-    ss.dependency 'ARESNetworking/Reachability'
-    ss.dependency 'ARESNetworking/Security'
+    ss.dependency 'ARESNetwork/Serialization'
+    ss.dependency 'ARESNetwork/Reachability'
+    ss.dependency 'ARESNetwork/Security'
 
     ss.source_files = 'src/ARESNetworking/ARESURLSessionManager.{h,m}', 'src/ARESNetworking/ARESHTTPSessionManager.{h,m}'
   end
@@ -128,8 +128,8 @@ s.subspec 'Serialization' do |ss|
   s.subspec 'UIKit' do |ss|
     ss.ios.deployment_target = '6.0'
 
-    ss.dependency 'ARESNetworking/NSURLConnection'
-    ss.dependency 'ARESNetworking/NSURLSession'
+    ss.dependency 'ARESNetwork/NSURLConnection'
+    ss.dependency 'ARESNetwork/NSURLSession'
 
     ss.ios.public_header_files = 'UIKit+ARESNetworking/*.h'
     ss.ios.source_files = 'UIKit+ARESNetworking'
