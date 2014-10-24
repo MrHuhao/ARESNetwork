@@ -110,9 +110,9 @@ s.subspec 'Serialization' do |ss|
   end
 
   s.subspec 'NSURLConnection' do |ss|
-    ss.dependency 'src/ARESNetworking/Serialization'
-    ss.dependency 'src/ARESNetworking/Reachability'
-    ss.dependency 'src/ARESNetworking/Security'
+    ss.dependency 'ARESNetwork/Serialization'
+    ss.dependency 'ARESNetwork/Reachability'
+    ss.dependency 'ARESNetwork/Security'
 
     ss.source_files = 'src/ARESNetworking/ARESURLConnectionOperation.{h,m}', 'src/ARESNetworking/ARESHTTPRequestOperation.{h,m}', 'src/ARESNetworking/ARESHTTPRequestOperationManager.{h,m}'
   end
