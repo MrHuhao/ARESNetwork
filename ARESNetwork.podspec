@@ -51,7 +51,7 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = '10.8'
 
   s.public_header_files = 'src/ARESNetworking/*.h'
-  s.source_files = 'src/*/*.h','src/*/*.m'
+  s.source_files = 'src/ARESNetworking/ARESNetworking.h'
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -93,5 +93,46 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
+s.subspec 'Serialization' do |ss|
+    ss.source_files = 'src/ARESNetworking/ARESURL{Request,Response}Serialization.{h,m}'
+    ss.ios.frameworks = 'MobileCoreServices', 'CoreGraphics'
+    ss.osx.frameworks = 'CoreServices'
+  end
 
+  s.subspec 'Security' do |ss|
+    ss.source_files = 'src/ARESNetworking/ARESSecurityPolicy.{h,m}'
+    ss.frameworks = 'Security'
+  end
+
+  s.subspec 'Reachability' do |ss|
+    ss.source_files = 'src/ARESNetworking/ARESNetworkReachabilityManager.{h,m}'
+    ss.frameworks = 'SystemConfiguration'
+  end
+
+  s.subspec 'NSURLConnection' do |ss|
+    ss.dependency 'src/ARESNetworking/Serialization'
+    ss.dependency 'src/ARESNetworking/Reachability'
+    ss.dependency 'src/ARESNetworking/Security'
+
+    ss.source_files = 'src/ARESNetworking/ARESURLConnectionOperation.{h,m}', 'src/ARESNetworking/ARESHTTPRequestOperation.{h,m}', 'src/ARESNetworking/ARESHTTPRequestOperationManager.{h,m}'
+  end
+
+  s.subspec 'NSURLSession' do |ss|
+    ss.dependency 'src/ARESNetworking/Serialization'
+    ss.dependency 'src/ARESNetworking/Reachability'
+    ss.dependency 'src/ARESNetworking/Security'
+
+    ss.source_files = 'src/ARESNetworking/ARESURLSessionManager.{h,m}', 'src/ARESNetworking/ARESHTTPSessionManager.{h,m}'
+  end
+
+  s.subspec 'UIKit' do |ss|
+    ss.ios.deployment_target = '6.0'
+
+    ss.dependency 'src/ARESNetworking/NSURLConnection'
+    ss.dependency 'src/ARESNetworking/NSURLSession'
+
+    ss.ios.public_header_files = 'UIKit+ARESNetworking/*.h'
+    ss.ios.source_files = 'UIKit+ARESNetworking'
+    ss.osx.source_files = ''
+  end
 end
