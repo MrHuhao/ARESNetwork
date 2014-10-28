@@ -98,6 +98,10 @@ s.subspec 'Serialization' do |ss|
     ss.ios.frameworks = 'MobileCoreServices', 'CoreGraphics'
     ss.osx.frameworks = 'CoreServices'
   end
+  
+  s.subspec 'HttpClient' do |ss|
+    ss.source_files = 'src/HttpClient/ARESAppDotNetAPIClient.{h,m}'
+  end
 
   s.subspec 'Security' do |ss|
     ss.source_files = 'src/ARESNetworking/ARESSecurityPolicy.{h,m}'
