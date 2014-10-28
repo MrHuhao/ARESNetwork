@@ -51,7 +51,7 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = '10.8'
 
   s.public_header_files = 'src/ARESNetworking/*.h'
-  s.source_files = 'src/*','src/*/*'
+  s.source_files = 'src/*/ARESNetworking.h'
 
   # s.public_header_files = "Classes/**/*.h"
 
