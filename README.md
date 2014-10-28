@@ -5,50 +5,49 @@ ARESNetwork
 
 
 <p align="center" >
-  <img src="https://raw.github.com/AFNetworking/AFNetworking/assets/afnetworking-logo.png" alt="AFNetworking" title="AFNetworking">
 </p>
 
-[![Build Status](https://travis-ci.org/AFNetworking/AFNetworking.svg)](https://travis-ci.org/AFNetworking/AFNetworking)
+[![Build Status](https://travis-ci.org/ARESNetworking/ARESNetworking.svg)](https://travis-ci.org/ARESNetworking/ARESNetworking)
 
-AFNetworking is a delightful networking library for iOS and Mac OS X. It's built on top of the [Foundation URL Loading System](http://developer.apple.com/library/mac/#documentation/Cocoa/Conceptual/URLLoadingSystem/URLLoadingSystem.html), extending the powerful high-level networking abstractions built into Cocoa. It has a modular architecture with well-designed, feature-rich APIs that are a joy to use.
+ARESNetworking is a delightful networking library for iOS and Mac OS X. It's built on top of the [Foundation URL Loading System](http://developer.apple.com/library/mac/#documentation/Cocoa/Conceptual/URLLoadingSystem/URLLoadingSystem.html), extending the powerful high-level networking abstractions built into Cocoa. It has a modular architecture with well-designed, feature-rich APIs that are a joy to use.
 
-Perhaps the most important feature of all, however, is the amazing community of developers who use and contribute to AFNetworking every day. AFNetworking powers some of the most popular and critically-acclaimed apps on the iPhone, iPad, and Mac.
+Perhaps the most important feature of all, however, is the amazing community of developers who use and contribute to ARESNetworking every day. ARESNetworking powers some of the most popular and critically-acclaimed apps on the iPhone, iPad, and Mac.
 
-Choose AFNetworking for your next project, or migrate over your existing projects—you'll be happy you did!
+Choose ARESNetworking for your next project, or migrate over your existing projects—you'll be happy you did!
 
 ## How To Get Started
 
-- [Download AFNetworking](https://github.com/AFNetworking/AFNetworking/archive/master.zip) and try out the included Mac and iPhone example apps
-- Read the ["Getting Started" guide](https://github.com/AFNetworking/AFNetworking/wiki/Getting-Started-with-AFNetworking), [FAQ](https://github.com/AFNetworking/AFNetworking/wiki/AFNetworking-FAQ), or [other articles on the Wiki](https://github.com/AFNetworking/AFNetworking/wiki)
-- Check out the [documentation](http://cocoadocs.org/docsets/AFNetworking/) for a comprehensive look at all of the APIs available in AFNetworking
-- Read the [AFNetworking 2.0 Migration Guide](https://github.com/AFNetworking/AFNetworking/wiki/AFNetworking-2.0-Migration-Guide) for an overview of the architectural changes from 1.0.
+- [Download ARESNetworking](https://github.com/ARESNetworking/ARESNetworking/archive/master.zip) and try out the included Mac and iPhone example apps
+- Read the ["Getting Started" guide](https://github.com/ARESNetworking/ARESNetworking/wiki/Getting-Started-with-ARESNetworking), [FAQ](https://github.com/ARESNetworking/ARESNetworking/wiki/ARESNetworking-FAQ), or [other articles on the Wiki](https://github.com/ARESNetworking/ARESNetworking/wiki)
+- Check out the [documentation](http://cocoadocs.org/docsets/ARESNetworking/) for a comprehensive look at all of the APIs available in ARESNetworking
+- Read the [ARESNetworking 2.0 Migration Guide](https://github.com/ARESNetworking/ARESNetworking/wiki/ARESNetworking-2.0-Migration-Guide) for an overview of the architectural changes from 1.0.
 
 ## Communication
 
-- If you **need help**, use [Stack Overflow](http://stackoverflow.com/questions/tagged/afnetworking). (Tag 'afnetworking')
-- If you'd like to **ask a general question**, use [Stack Overflow](http://stackoverflow.com/questions/tagged/afnetworking).
+- If you **need help**, use [Stack Overflow](http://stackoverflow.com/questions/tagged/ARESnetworking). (Tag 'ARESnetworking')
+- If you'd like to **ask a general question**, use [Stack Overflow](http://stackoverflow.com/questions/tagged/ARESnetworking).
 - If you **found a bug**, open an issue.
 - If you **have a feature request**, open an issue.
 - If you **want to contribute**, submit a pull request.
 
 ### Installation with CocoaPods
 
-[CocoaPods](http://cocoapods.org) is a dependency manager for Objective-C, which automates and simplifies the process of using 3rd-party libraries like AFNetworking in your projects. See the ["Getting Started" guide for more information](https://github.com/AFNetworking/AFNetworking/wiki/Getting-Started-with-AFNetworking).
+[CocoaPods](http://cocoapods.org) is a dependency manager for Objective-C, which automates and simplifies the process of using 3rd-party libraries like ARESNetworking in your projects. See the ["Getting Started" guide for more information](https://github.com/ARESNetworking/ARESNetworking/wiki/Getting-Started-with-ARESNetworking).
 
 #### Podfile
 
 ```ruby
 platform :ios, '7.0'
-pod "AFNetworking", "~> 2.0"
+pod "ARESNetworking", "~> 2.0"
 ```
 
 ## Requirements
 
-| AFNetworking Version | Minimum iOS Target  | Minimum OS X Target  |                                   Notes                                   |
+| ARESNetworking Version | Minimum iOS Target  | Minimum OS X Target  |                                   Notes                                   |
 |:--------------------:|:---------------------------:|:----------------------------:|:-------------------------------------------------------------------------:|
-|          2.x         |            iOS 6            |           OS X 10.8          | Xcode 5 is required. `AFHTTPSessionManager` requires iOS 7 or OS X 10.9. |
-|          [1.x](https://github.com/AFNetworking/AFNetworking/tree/1.x)         |            iOS 5            |         Mac OS X 10.7        |                                                                           |
-|        [0.10.x](https://github.com/AFNetworking/AFNetworking/tree/0.10.x)        |            iOS 4            |         Mac OS X 10.6        |                                                                           |
+|          2.x         |            iOS 6            |           OS X 10.8          | Xcode 5 is required. `ARESHTTPSessionManager` requires iOS 7 or OS X 10.9. |
+|          [1.x](https://github.com/ARESNetworking/ARESNetworking/tree/1.x)         |            iOS 5            |         Mac OS X 10.7        |                                                                           |
+|        [0.10.x](https://github.com/ARESNetworking/ARESNetworking/tree/0.10.x)        |            iOS 4            |         Mac OS X 10.6        |                                                                           |
 
 (OS X projects must support [64-bit with modern Cocoa runtime](https://developer.apple.com/library/mac/#documentation/Cocoa/Conceptual/ObjCRuntimeGuide/Articles/ocrtVersionsPlatforms.html)).
 
@@ -56,48 +55,48 @@ pod "AFNetworking", "~> 2.0"
 
 ### NSURLConnection
 
-- `AFURLConnectionOperation`
-- `AFHTTPRequestOperation`
-- `AFHTTPRequestOperationManager`
+- `ARESURLConnectionOperation`
+- `ARESHTTPRequestOperation`
+- `ARESHTTPRequestOperationManager`
 
 ### NSURLSession _(iOS 7 / Mac OS X 10.9)_
 
-- `AFURLSessionManager`
-- `AFHTTPSessionManager`
+- `ARESURLSessionManager`
+- `ARESHTTPSessionManager`
 
 ### Serialization
 
-* `<AFURLRequestSerialization>`
-  - `AFHTTPRequestSerializer`
-  - `AFJSONRequestSerializer`
-  - `AFPropertyListRequestSerializer`
-* `<AFURLResponseSerialization>`
-  - `AFHTTPResponseSerializer`
-  - `AFJSONResponseSerializer`
-  - `AFXMLParserResponseSerializer`
-  - `AFXMLDocumentResponseSerializer` _(Mac OS X)_
-  - `AFPropertyListResponseSerializer`
-  - `AFImageResponseSerializer`
-  - `AFCompoundResponseSerializer`
+* `<ARESURLRequestSerialization>`
+  - `ARESHTTPRequestSerializer`
+  - `ARESJSONRequestSerializer`
+  - `ARESPropertyListRequestSerializer`
+* `<ARESURLResponseSerialization>`
+  - `ARESHTTPResponseSerializer`
+  - `ARESJSONResponseSerializer`
+  - `ARESXMLParserResponseSerializer`
+  - `ARESXMLDocumentResponseSerializer` _(Mac OS X)_
+  - `ARESPropertyListResponseSerializer`
+  - `ARESImageResponseSerializer`
+  - `ARESCompoundResponseSerializer`
 
 ### Additional Functionality
 
-- `AFSecurityPolicy`
-- `AFNetworkReachabilityManager`
+- `ARESSecurityPolicy`
+- `ARESNetworkReachabilityManager`
 
 ## Usage
 
 ### HTTP Request Operation Manager
 
-`AFHTTPRequestOperationManager` encapsulates the common patterns of communicating with a web application over HTTP, including request creation, response serialization, network reachability monitoring, and security, as well as request operation management.
+`ARESHTTPRequestOperationManager` encapsulates the common patterns of communicating with a web application over HTTP, including request creation, response serialization, network reachability monitoring, and security, as well as request operation management.
 
 #### `GET` Request
 
 ```objective-c
-AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
-[manager GET:@"http://example.com/resources.json" parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
+ARESHTTPRequestOperationManager *manager = [ARESHTTPRequestOperationManager manager];
+[manager GET:@"http://example.com/resources.json" parameters:nil success:^(ARESHTTPRequestOperation *operation, id responseObject) {
     NSLog(@"JSON: %@", responseObject);
-} failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+} failure:^(ARESHTTPRequestOperation *operation, NSError *error) {
     NSLog(@"Error: %@", error);
 }];
 ```
@@ -105,11 +104,11 @@ AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager]
 #### `POST` URL-Form-Encoded Request
 
 ```objective-c
-AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
+ARESHTTPRequestOperationManager *manager = [ARESHTTPRequestOperationManager manager];
 NSDictionary *parameters = @{@"foo": @"bar"};
-[manager POST:@"http://example.com/resources.json" parameters:parameters success:^(AFHTTPRequestOperation *operation, id responseObject) {
+[manager POST:@"http://example.com/resources.json" parameters:parameters success:^(ARESHTTPRequestOperation *operation, id responseObject) {
     NSLog(@"JSON: %@", responseObject);
-} failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+} failure:^(ARESHTTPRequestOperation *operation, NSError *error) {
     NSLog(@"Error: %@", error);
 }];
 ```
@@ -117,29 +116,29 @@ NSDictionary *parameters = @{@"foo": @"bar"};
 #### `POST` Multi-Part Request
 
 ```objective-c
-AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
+ARESHTTPRequestOperationManager *manager = [ARESHTTPRequestOperationManager manager];
 NSDictionary *parameters = @{@"foo": @"bar"};
 NSURL *filePath = [NSURL fileURLWithPath:@"file://path/to/image.png"];
-[manager POST:@"http://example.com/resources.json" parameters:parameters constructingBodyWithBlock:^(id<AFMultipartFormData> formData) {
+[manager POST:@"http://example.com/resources.json" parameters:parameters constructingBodyWithBlock:^(id<ARESMultipartFormData> formData) {
     [formData appendPartWithFileURL:filePath name:@"image" error:nil];
-} success:^(AFHTTPRequestOperation *operation, id responseObject) {
+} success:^(ARESHTTPRequestOperation *operation, id responseObject) {
     NSLog(@"Success: %@", responseObject);
-} failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+} failure:^(ARESHTTPRequestOperation *operation, NSError *error) {
     NSLog(@"Error: %@", error);
 }];
 ```
 
 ---
 
-### AFURLSessionManager
+### ARESURLSessionManager
 
-`AFURLSessionManager` creates and manages an `NSURLSession` object based on a specified `NSURLSessionConfiguration` object, which conforms to `<NSURLSessionTaskDelegate>`, `<NSURLSessionDataDelegate>`, `<NSURLSessionDownloadDelegate>`, and `<NSURLSessionDelegate>`.
+`ARESURLSessionManager` creates and manages an `NSURLSession` object based on a specified `NSURLSessionConfiguration` object, which conforms to `<NSURLSessionTaskDelegate>`, `<NSURLSessionDataDelegate>`, `<NSURLSessionDownloadDelegate>`, and `<NSURLSessionDelegate>`.
 
 #### Creating a Download Task
 
 ```objective-c
 NSURLSessionConfiguration *configuration = [NSURLSessionConfiguration defaultSessionConfiguration];
-AFURLSessionManager *manager = [[AFURLSessionManager alloc] initWithSessionConfiguration:configuration];
+ARESURLSessionManager *manager = [[ARESURLSessionManager alloc] initWithSessionConfiguration:configuration];
 
 NSURL *URL = [NSURL URLWithString:@"http://example.com/download.zip"];
 NSURLRequest *request = [NSURLRequest requestWithURL:URL];
@@ -157,7 +156,7 @@ NSURLSessionDownloadTask *downloadTask = [manager downloadTaskWithRequest:reques
 
 ```objective-c
 NSURLSessionConfiguration *configuration = [NSURLSessionConfiguration defaultSessionConfiguration];
-AFURLSessionManager *manager = [[AFURLSessionManager alloc] initWithSessionConfiguration:configuration];
+ARESURLSessionManager *manager = [[ARESURLSessionManager alloc] initWithSessionConfiguration:configuration];
 
 NSURL *URL = [NSURL URLWithString:@"http://example.com/upload"];
 NSURLRequest *request = [NSURLRequest requestWithURL:URL];
@@ -176,11 +175,11 @@ NSURLSessionUploadTask *uploadTask = [manager uploadTaskWithRequest:request from
 #### Creating an Upload Task for a Multi-Part Request, with Progress
 
 ```objective-c
-NSMutableURLRequest *request = [[AFHTTPRequestSerializer serializer] multipartFormRequestWithMethod:@"POST" URLString:@"http://example.com/upload" parameters:nil constructingBodyWithBlock:^(id<AFMultipartFormData> formData) {
+NSMutableURLRequest *request = [[ARESHTTPRequestSerializer serializer] multipartFormRequestWithMethod:@"POST" URLString:@"http://example.com/upload" parameters:nil constructingBodyWithBlock:^(id<ARESMultipartFormData> formData) {
         [formData appendPartWithFileURL:[NSURL fileURLWithPath:@"file://path/to/image.jpg"] name:@"file" fileName:@"filename.jpg" mimeType:@"image/jpeg" error:nil];
     } error:nil];
 
-AFURLSessionManager *manager = [[AFURLSessionManager alloc] initWithSessionConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration]];
+ARESURLSessionManager *manager = [[ARESURLSessionManager alloc] initWithSessionConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration]];
 NSProgress *progress = nil;
 
 NSURLSessionUploadTask *uploadTask = [manager uploadTaskWithStreamedRequest:request progress:&progress completionHandler:^(NSURLResponse *response, id responseObject, NSError *error) {
@@ -198,7 +197,7 @@ NSURLSessionUploadTask *uploadTask = [manager uploadTaskWithStreamedRequest:requ
 
 ```objective-c
 NSURLSessionConfiguration *configuration = [NSURLSessionConfiguration defaultSessionConfiguration];
-AFURLSessionManager *manager = [[AFURLSessionManager alloc] initWithSessionConfiguration:configuration];
+ARESURLSessionManager *manager = [[ARESURLSessionManager alloc] initWithSessionConfiguration:configuration];
 
 NSURL *URL = [NSURL URLWithString:@"http://example.com/upload"];
 NSURLRequest *request = [NSURLRequest requestWithURL:URL];
@@ -227,7 +226,7 @@ NSDictionary *parameters = @{@"foo": @"bar", @"baz": @[@1, @2, @3]};
 #### Query String Parameter Encoding
 
 ```objective-c
-[[AFHTTPRequestSerializer serializer] requestWithMethod:@"GET" URLString:URLString parameters:parameters error:nil];
+[[ARESHTTPRequestSerializer serializer] requestWithMethod:@"GET" URLString:URLString parameters:parameters error:nil];
 ```
 
     GET http://example.com?foo=bar&baz[]=1&baz[]=2&baz[]=3
@@ -235,7 +234,7 @@ NSDictionary *parameters = @{@"foo": @"bar", @"baz": @[@1, @2, @3]};
 #### URL Form Parameter Encoding
 
 ```objective-c
-[[AFHTTPRequestSerializer serializer] requestWithMethod:@"POST" URLString:URLString parameters:parameters];
+[[ARESHTTPRequestSerializer serializer] requestWithMethod:@"POST" URLString:URLString parameters:parameters];
 ```
 
     POST http://example.com/
@@ -246,7 +245,7 @@ NSDictionary *parameters = @{@"foo": @"bar", @"baz": @[@1, @2, @3]};
 #### JSON Parameter Encoding
 
 ```objective-c
-[[AFJSONRequestSerializer serializer] requestWithMethod:@"POST" URLString:URLString parameters:parameters];
+[[ARESJSONRequestSerializer serializer] requestWithMethod:@"POST" URLString:URLString parameters:parameters];
 ```
 
     POST http://example.com/
@@ -258,13 +257,13 @@ NSDictionary *parameters = @{@"foo": @"bar", @"baz": @[@1, @2, @3]};
 
 ### Network Reachability Manager
 
-`AFNetworkReachabilityManager` monitors the reachability of domains, and addresses for both WWAN and WiFi network interfaces.
+`ARESNetworkReachabilityManager` monitors the reachability of domains, and addresses for both WWAN and WiFi network interfaces.
 
 #### Shared Network Reachability
 
 ```objective-c
-[[AFNetworkReachabilityManager sharedManager] setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
-    NSLog(@"Reachability: %@", AFStringFromNetworkReachabilityStatus(status));
+[[ARESNetworkReachabilityManager sharedManager] setReachabilityStatusChangeBlock:^(ARESNetworkReachabilityStatus status) {
+    NSLog(@"Reachability: %@", ARESStringFromNetworkReachabilityStatus(status));
 }];
 ```
 
@@ -272,16 +271,16 @@ NSDictionary *parameters = @{@"foo": @"bar", @"baz": @[@1, @2, @3]};
 
 ```objective-c
 NSURL *baseURL = [NSURL URLWithString:@"http://example.com/"];
-AFHTTPRequestOperationManager *manager = [[AFHTTPRequestOperationManager alloc] initWithBaseURL:baseURL];
+ARESHTTPRequestOperationManager *manager = [[ARESHTTPRequestOperationManager alloc] initWithBaseURL:baseURL];
 
 NSOperationQueue *operationQueue = manager.operationQueue;
-[manager.reachabilityManager setReachabilityStatusChangeBlock:^(AFNetworkReachabilityStatus status) {
+[manager.reachabilityManager setReachabilityStatusChangeBlock:^(ARESNetworkReachabilityStatus status) {
     switch (status) {
-        case AFNetworkReachabilityStatusReachableViaWWAN:
-        case AFNetworkReachabilityStatusReachableViaWiFi:
+        case ARESNetworkReachabilityStatusReachableViaWWAN:
+        case ARESNetworkReachabilityStatusReachableViaWiFi:
             [operationQueue setSuspended:NO];
             break;
-        case AFNetworkReachabilityStatusNotReachable:
+        case ARESNetworkReachabilityStatusNotReachable:
         default:
             [operationQueue setSuspended:YES];
             break;
@@ -295,35 +294,35 @@ NSOperationQueue *operationQueue = manager.operationQueue;
 
 ### Security Policy
 
-`AFSecurityPolicy` evaluates server trust against pinned X.509 certificates and public keys over secure connections.
+`ARESSecurityPolicy` evaluates server trust against pinned X.509 certificates and public keys over secure connections.
 
 Adding pinned SSL certificates to your app helps prevent man-in-the-middle attacks and other vulnerabilities. Applications dealing with sensitive customer data or financial information are strongly encouraged to route all communication over an HTTPS connection with SSL pinning configured and enabled.
 
 #### Allowing Invalid SSL Certificates
 
 ```objective-c
-AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
+ARESHTTPRequestOperationManager *manager = [ARESHTTPRequestOperationManager manager];
 manager.securityPolicy.allowInvalidCertificates = YES; // not recommended for production
 ```
 
 ---
 
-### AFHTTPRequestOperation
+### ARESHTTPRequestOperation
 
-`AFHTTPRequestOperation` is a subclass of `AFURLConnectionOperation` for requests using the HTTP or HTTPS protocols. It encapsulates the concept of acceptable status codes and content types, which determine the success or failure of a request.
+`ARESHTTPRequestOperation` is a subclass of `ARESURLConnectionOperation` for requests using the HTTP or HTTPS protocols. It encapsulates the concept of acceptable status codes and content types, which determine the success or failure of a request.
 
-Although `AFHTTPRequestOperationManager` is usually the best way to go about making requests, `AFHTTPRequestOperation` can be used by itself.
+Although `ARESHTTPRequestOperationManager` is usually the best way to go about making requests, `ARESHTTPRequestOperation` can be used by itself.
 
-#### `GET` with `AFHTTPRequestOperation`
+#### `GET` with `ARESHTTPRequestOperation`
 
 ```objective-c
 NSURL *URL = [NSURL URLWithString:@"http://example.com/resources/123.json"];
 NSURLRequest *request = [NSURLRequest requestWithURL:URL];
-AFHTTPRequestOperation *op = [[AFHTTPRequestOperation alloc] initWithRequest:request];
-op.responseSerializer = [AFJSONResponseSerializer serializer];
-[op setCompletionBlockWithSuccess:^(AFHTTPRequestOperation *operation, id responseObject) {
+ARESHTTPRequestOperation *op = [[ARESHTTPRequestOperation alloc] initWithRequest:request];
+op.responseSerializer = [ARESJSONResponseSerializer serializer];
+[op setCompletionBlockWithSuccess:^(ARESHTTPRequestOperation *operation, id responseObject) {
     NSLog(@"JSON: %@", responseObject);
-} failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+} failure:^(ARESHTTPRequestOperation *operation, NSError *error) {
     NSLog(@"Error: %@", error);
 }];
 [[NSOperationQueue mainQueue] addOperation:op];
@@ -334,16 +333,16 @@ op.responseSerializer = [AFJSONResponseSerializer serializer];
 ```objective-c
 NSMutableArray *mutableOperations = [NSMutableArray array];
 for (NSURL *fileURL in filesToUpload) {
-    NSURLRequest *request = [[AFHTTPRequestSerializer serializer] multipartFormRequestWithMethod:@"POST" URLString:@"http://example.com/upload" parameters:nil constructingBodyWithBlock:^(id<AFMultipartFormData> formData) {
+    NSURLRequest *request = [[ARESHTTPRequestSerializer serializer] multipartFormRequestWithMethod:@"POST" URLString:@"http://example.com/upload" parameters:nil constructingBodyWithBlock:^(id<ARESMultipartFormData> formData) {
         [formData appendPartWithFileURL:fileURL name:@"images[]" error:nil];
     }];
 
-    AFHTTPRequestOperation *operation = [[AFHTTPRequestOperation alloc] initWithRequest:request];
+    ARESHTTPRequestOperation *operation = [[ARESHTTPRequestOperation alloc] initWithRequest:request];
 
     [mutableOperations addObject:operation];
 }
 
-NSArray *operations = [AFURLConnectionOperation batchOfRequestOperations:@[...] progressBlock:^(NSUInteger numberOfFinishedOperations, NSUInteger totalNumberOfOperations) {
+NSArray *operations = [ARESURLConnectionOperation batchOfRequestOperations:@[...] progressBlock:^(NSUInteger numberOfFinishedOperations, NSUInteger totalNumberOfOperations) {
     NSLog(@"%lu of %lu complete", numberOfFinishedOperations, totalNumberOfOperations);
 } completionBlock:^(NSArray *operations) {
     NSLog(@"All operations in batch complete");
@@ -353,7 +352,7 @@ NSArray *operations = [AFURLConnectionOperation batchOfRequestOperations:@[...] 
 
 ## Unit Tests
 
-AFNetworking includes a suite of unit tests within the Tests subdirectory. In order to run the unit tests, you must install the testing dependencies via [CocoaPods](http://cocoapods.org/):
+ARESNetworking includes a suite of unit tests within the Tests subdirectory. In order to run the unit tests, you must install the testing dependencies via [CocoaPods](http://cocoapods.org/):
 
     $ cd Tests
     $ pod install
@@ -370,15 +369,15 @@ Once `xcpretty` is installed, you can execute the suite via `rake test`.
 
 ## Credits
 
-AFNetworking was originally created by [Scott Raymond](https://github.com/sco/) and [Mattt Thompson](https://github.com/mattt/) in the development of [Gowalla for iPhone](http://en.wikipedia.org/wiki/Gowalla).
+ARESNetworking was originally created by [Scott Raymond](https://github.com/sco/) and [Mattt Thompson](https://github.com/mattt/) in the development of [Gowalla for iPhone](http://en.wikipedia.org/wiki/Gowalla).
 
-AFNetworking's logo was designed by [Alan Defibaugh](http://www.alandefibaugh.com/).
+ARESNetworking's logo was designed by [Alan Defibaugh](http://www.alandefibaugh.com/).
 
-And most of all, thanks to AFNetworking's [growing list of contributors](https://github.com/AFNetworking/AFNetworking/contributors).
+And most of all, thanks to ARESNetworking's [growing list of contributors](https://github.com/ARESNetworking/ARESNetworking/contributors).
 
 ## Contact
 
-Follow AFNetworking on Twitter ([@AFNetworking](https://twitter.com/AFNetworking))
+Follow ARESNetworking on Twitter ([@ARESNetworking](https://twitter.com/ARESNetworking))
 
 ### Maintainers
 
@@ -386,4 +385,4 @@ Follow AFNetworking on Twitter ([@AFNetworking](https://twitter.com/AFNetworking
 
 ## License
 
-AFNetworking is available under the MIT license. See the LICENSE file for more info.
+ARESNetworking is available under the MIT license. See the LICENSE file for more info.
